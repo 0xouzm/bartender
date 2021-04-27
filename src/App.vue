@@ -1,16 +1,18 @@
 <template>
-  <div id="app">
-    <div class="top">top</div>
-    <div class="content">
-      <router-view/>
+  <div class="app">
+    <div class="container"> This container is <strong>centered</strong> on desktop and larger viewports.
     </div>
-    <div class="bottom">bottom</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  computed: {
+    windowWidth () {
+      return window.innerWidth
+    }
+  }
 }
 </script>
 
