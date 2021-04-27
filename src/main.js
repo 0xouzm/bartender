@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import menu from './assets/menu.json'
 
+import 'normalize.css/normalize.css'
 Vue.prototype.MENU = menu
 Vue.config.productionTip = false
 
