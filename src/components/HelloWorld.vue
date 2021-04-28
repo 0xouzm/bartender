@@ -12,26 +12,25 @@
 <script>
 export default {
   name: 'HelloWorld',
-  data () {
+  data() {
     return {
       msg: 'Welcome to BarTender',
       menus: [
-        {id: 1, value: 'whisky'},
-        {id: 2, value: '莫吉托'}
-      ]
+        { id: 1, value: 'whisky' },
+        { id: 2, value: '莫吉托' },
+      ],
     }
   },
+  created() {},
   methods: {
-    getId (id) {
+    getId(id) {
       this.$router.push({
-        path: `/choice/${id}`
+        path: `/choice/${id}`,
       })
-    }
-  }
+    },
+  },
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
+<style scoped></style>

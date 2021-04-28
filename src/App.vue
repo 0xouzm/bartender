@@ -38,6 +38,6 @@ body {
 }
 
 .container {
-  background-color: plum;
+  background-color: gray;
 }
 </style>

@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-<!--    <img src="../assets/logo.png" alt="">-->
+    <!--    <img src="../assets/logo.png" alt="">-->
     <div>
-
       choice: {{ $route.params.id }}
       <button @click="$router.back()">back</button>
     </div>
@@ -11,12 +10,12 @@
 
 <script>
 export default {
-  name: 'Choice'
+  name: 'Choice',
 }
 </script>
 
 <style scoped>
-.container{
+.container {
   height: 100%;
 }
 
