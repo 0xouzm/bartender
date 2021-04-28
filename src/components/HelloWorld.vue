@@ -6,12 +6,15 @@
         {{ m.value }}
       </li>
     </ul>
+    <Button type="primary" @click="click">btn</Button>
   </div>
 </template>
 
 <script>
+import { Button } from 'vant'
 export default {
   name: 'HelloWorld',
+  components: { Button },
   data() {
     return {
       msg: 'Welcome to BarTender',
@@ -27,6 +30,9 @@ export default {
       this.$router.push({
         path: `/choice/${id}`,
       })
+    },
+    click() {
+      console.log('1')
     },
   },
 }

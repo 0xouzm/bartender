@@ -3,14 +3,18 @@
     <!--    <img src="../assets/logo.png" alt="">-->
     <div>
       choice: {{ $route.params.id }}
-      <button @click="$router.back()">back</button>
+      <Button @click="$router.back()">back</Button>
     </div>
   </div>
 </template>
 
 <script>
+import { Button } from 'vant'
 export default {
   name: 'Choice',
+  components: {
+    Button,
+  },
 }
 </script>
 
