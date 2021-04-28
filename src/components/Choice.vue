@@ -5,15 +5,17 @@
       choice: {{ $route.params.id }}
       <Button @click="$router.back()">back</Button>
     </div>
+    <Loading type="spinner" />
   </div>
 </template>
 
 <script>
-import { Button } from 'vant'
+import { Button, Loading } from 'vant'
 export default {
   name: 'Choice',
   components: {
     Button,
+    Loading,
   },
 }
 </script>
