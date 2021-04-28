@@ -1,14 +1,11 @@
 <template>
   <div id="app">
-
     <div class="top">top</div>
 
-    <div class="container" :style="{height: windowWidth}">
-      <router-view/>
+    <div class="container" :style="{ height: windowWidth }">
+      <router-view />
     </div>
-    <div class="bottom">
-      bottom
-    </div>
+    <div class="bottom">bottom</div>
   </div>
 </template>
 
@@ -16,15 +13,16 @@
 export default {
   name: 'App',
   computed: {
-    windowWidth () {
+    windowWidth() {
       return window.innerWidth + 'px'
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style>
-html,body{
+html,
+body {
   height: 100%;
 }
 #app {
@@ -37,10 +35,9 @@ html,body{
   flex-direction: column;
   justify-content: center;
   height: 100%;
-
 }
 
-.container{
+.container {
   background-color: plum;
 }
 </style>
