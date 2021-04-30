@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <div class="top">top</div>
+    <!--    <div class="top">top</div>-->
 
-    <div class="container" :style="{ height: windowWidth }">
-      <router-view />
-    </div>
-    <div class="bottom">bottom</div>
+    <!--    <div class="container" :style="{ height: windowWidth }">-->
+    <router-view />
+    <!--    </div>-->
+    <!--    <div class="bottom">bottom</div>-->
   </div>
 </template>
 
