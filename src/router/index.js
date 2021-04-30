@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Choice from '../components/Choice'
 import Draw from '../components/Draw'
+import Container from '../components/Container'
 
 Vue.use(Router)
 
@@ -13,9 +14,10 @@ export default new Router({
       component: Draw,
     },
     {
-      path: '/choice/:id',
-      name: 'Choice',
-      component: Choice,
+      path: '/choice',
+      name: 'index',
+      component: Container,
+      children: [{ path: '/choice/:id', name: 'Choice', component: Choice }],
     },
   ],
 })

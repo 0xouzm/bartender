@@ -6,7 +6,6 @@
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
     >
-      <title>@WebDesignerMag</title>
       <g stroke="none" fill="none" fill-rule="evenodd" fill-opacity="0">
         <text
           id="@WebDesignerMag"
@@ -54,6 +53,7 @@
       </g>
     </svg>
     <!--    bubbles  -->
+    <router-link :to="{ name: 'index' }" class="link">NEXT</router-link>
 
     <div class="bubbles-container">
       <svg
@@ -451,5 +451,10 @@ export default {
     opacity: 0;
     transform: translateY(-1024px);
   }
+}
+.link {
+  display: block;
+  font-size: 40px;
+  color: white;
 }
 </style>
