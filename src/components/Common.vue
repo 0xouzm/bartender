@@ -1,6 +1,15 @@
 <script type="text/javascript">
 // 定义一些公共的属性和方法
 const menus = {
+  0: {
+    text: '000',
+    children: [
+      {
+        id: 1,
+        value: '1',
+      },
+    ],
+  },
   1: {
     text: '111',
     children: [

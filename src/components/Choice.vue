@@ -4,8 +4,14 @@
     <div>
       <p>{{ xxx }}</p>
       params.id: {{ $route.params.id }}
-      <router-link :to="{ name: 'choice', params: { id: 1 } }" class="link">
-        <Button>1</Button>
+
+      <router-link
+        :to="{ name: 'choice', params: { id: page.id } }"
+        class="link"
+        v-for="page in children"
+        :key="page.id"
+      >
+        <Button>{{ page.value }}</Button>
       </router-link>
       <Button @click="$router.back()" class="backBtn">back</Button>
     </div>
@@ -22,6 +28,7 @@ export default {
   data() {
     return {
       xxx: 'xxx',
+      children: [],
     }
   },
   created() {
@@ -37,11 +44,9 @@ export default {
       console.log('menus:', menus)
       console.log('id:', id)
       console.log('params', menus[id])
-      // try {
-      //   this.xxx = this.common.menus.id.text
-      // } catch (e) {
-      //   console.log(e)
-      // }
+      let obj = menus[id]
+      this.xxx = obj.text
+      this.children = obj.children
     },
   },
 }
@@ -56,6 +61,9 @@ export default {
 /*  width: 300px;*/
 /*  height: 300px;*/
 /*}*/
+.link {
+  display: block;
+}
 .backBtn {
   position: absolute;
   bottom: 0;
