@@ -18,10 +18,6 @@ export default {
   data() {
     return {
       msg: 'Welcome to BarTender',
-      menus: [
-        { id: 1, value: 'whisky' },
-        { id: 2, value: '莫吉托' },
-      ],
     }
   },
   created() {},

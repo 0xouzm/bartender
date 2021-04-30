@@ -1,8 +1,7 @@
 <script type="text/javascript">
 // 定义一些公共的属性和方法
-const menus = [
-  {
-    page: 1,
+const menus = {
+  1: {
     text: '111',
     children: [
       {
@@ -15,8 +14,7 @@ const menus = [
       },
     ],
   },
-  {
-    page: 2,
+  2: {
     text: '222',
     children: [
       {
@@ -29,8 +27,7 @@ const menus = [
       },
     ],
   },
-  {
-    page: 3,
+  3: {
     text: '333',
     children: [
       {
@@ -43,7 +40,7 @@ const menus = [
       },
     ],
   },
-]
+}
 function commonFun() {
   console.log('公共方法')
 }

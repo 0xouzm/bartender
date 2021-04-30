@@ -8,7 +8,7 @@ import 'normalize.css/normalize.css'
 
 import global from './components/Common.vue'
 Vue.config.productionTip = false
-Vue.prototype.COMMON = global
+Vue.prototype.common = global
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

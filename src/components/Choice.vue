@@ -2,7 +2,8 @@
   <div class="container">
     <!--    <img src="../assets/logo.png" alt="">-->
     <div>
-      choice: {{ $route.params.id }}
+      <p>{{ xxx }}</p>
+      params.id: {{ $route.params.id }}
       <router-link :to="{ name: 'choice', params: { id: 1 } }" class="link">
         <Button>1</Button>
       </router-link>
@@ -18,9 +19,30 @@ export default {
   components: {
     Button,
   },
+  data() {
+    return {
+      xxx: 'xxx',
+    }
+  },
   created() {
-    console.log('menus:', this.COMMON.menus)
-    console.log('id:', this.$route.params.id)
+    this.changeAll()
+  },
+  updated() {
+    this.changeAll()
+  },
+  methods: {
+    changeAll() {
+      let menus = this.common.menus
+      let id = this.$route.params.id
+      console.log('menus:', menus)
+      console.log('id:', id)
+      console.log('params', menus[id])
+      // try {
+      //   this.xxx = this.common.menus.id.text
+      // } catch (e) {
+      //   console.log(e)
+      // }
+    },
   },
 }
 </script>
