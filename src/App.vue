@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view />
+    <a href="/" class="big">home</a>
   </div>
 </template>
 
@@ -30,5 +31,11 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+}
+
+.big {
+  position: absolute;
+  bottom: 0;
+  font-size: 40px;
 }
 </style>

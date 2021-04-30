@@ -2,7 +2,9 @@
 // 定义一些公共的属性和方法
 const menus = {
   0: {
+    id: 0,
     text: '000',
+    final: false,
     children: [
       {
         id: 1,
@@ -11,7 +13,9 @@ const menus = {
     ],
   },
   1: {
+    id: 1,
     text: '111',
+    final: false,
     children: [
       {
         id: 2,
@@ -24,7 +28,9 @@ const menus = {
     ],
   },
   2: {
+    id: 2,
     text: '222',
+    final: false,
     children: [
       {
         id: 4,
@@ -37,7 +43,9 @@ const menus = {
     ],
   },
   3: {
+    id: 3,
     text: '333',
+    final: false,
     children: [
       {
         id: 6,
@@ -48,6 +56,11 @@ const menus = {
         value: '777',
       },
     ],
+  },
+  4: {
+    id: 4,
+    text: '444',
+    final: true,
   },
 }
 function commonFun() {
