@@ -53,7 +53,7 @@
       </g>
     </svg>
     <!--    bubbles  -->
-    <router-link :to="{ name: 'index' }" class="link">NEXT</router-link>
+    <router-link :to="{ name: 'choice', params: { id: 0 } }" class="link">NEXT</router-link>
 
     <div class="bubbles-container">
       <svg

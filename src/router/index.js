@@ -14,10 +14,9 @@ export default new Router({
       component: Draw,
     },
     {
-      path: '/choice',
-      name: 'index',
+      path: '/index',
       component: Container,
-      children: [{ path: '/choice/:id', name: 'Choice', component: Choice }],
+      children: [{ path: '/choice/:id', name: 'choice', component: Choice }],
     },
   ],
 })

@@ -3,8 +3,20 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
+function resolve(dir) {
+  return path.join(__dirname, dir) //path.join(__dirname)设置绝对路径
+}
 
 module.exports = {
+  configureWebpack: {
+    // provide the app's title in webpack's name field, so that
+    // it can be accessed in index.html to inject the correct title.
+    resolve: {
+      alias: {
+        '@': resolve('src'),
+      },
+    },
+  },
   dev: {
     // Paths
     assetsSubDirectory: 'static',

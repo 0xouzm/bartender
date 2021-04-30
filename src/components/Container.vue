@@ -23,5 +23,6 @@ export default {
 <style scoped lang="scss">
 .container {
   background-color: gray;
+  position: relative;
 }
 </style>

@@ -3,12 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import menu from './assets/menu.json'
 
 import 'normalize.css/normalize.css'
-Vue.prototype.MENU = menu
-Vue.config.productionTip = false
 
+import global from './components/Common.vue'
+Vue.config.productionTip = false
+Vue.prototype.COMMON = global
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
