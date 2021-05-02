@@ -584,7 +584,86 @@ const wines = {
     _ingredient: 'gin, campari, apricot, lemon,\n' + 'orgeat.',
     price: 90,
   },
+  39: {
+    text: '黄瓜菲士',
+    _text: 'CUCUMBER GIN FIZZ',
+    vol: 12,
+    ingredient: '金酒, 接骨木花, 利莱酒, 青柠, 黄瓜苏打水。',
+    _ingredient: 'gin, elderflower, lillet, lime, cucumber soda.',
+    price: 100,
+  },
 
+  40: {
+    text: '新加坡司令',
+    _text: 'SINGAPORE SLING',
+    vol: 12,
+    ingredient: '金酒,\n' + '樱桃力娇酒, 君度橙酒, 廊酒, 菠萝汁, 柠檬。',
+    _ingredient: 'gin,\n' + 'cherry liqueur, cointreau, benedictine, pineapple, lemon.',
+    price: 90,
+  },
+
+  41: {
+    text: '晨光飞逝',
+    _text: 'MORNING GLORY FIZZ',
+    vol: 12,
+    ingredient: '威士忌,\n' + '柠檬,\n' + '苦艾酒, 蛋清, 苏打水。',
+    _ingredient: 'whisky,\n' + 'lemon,\n' + 'absinthe, egg white, soda.',
+    price: 95,
+  },
+
+  42: {
+    text: '披荆斩棘',
+    _text: 'BRAMBLE',
+    vol: 16,
+    ingredient: '金酒, 黑莓力娇酒, 柠檬, 糖。',
+    _ingredient: 'gin, chambord, lemon, sugar.',
+    price: 95,
+  },
+
+  43: {
+    text: '法式马天尼',
+    _text: 'FRENCH MARTINI',
+    vol: 17,
+    ingredient: '伏特加, 黑莓力娇酒, 菠萝, 柠檬。',
+    _ingredient: 'vodka, chambord, pineapple, lemon.',
+    price: 90,
+  },
+
+  44: {
+    text: '深沟',
+    _text: 'DONGA PUNCH',
+    vol: 15,
+    ingredient: '金朗姆, 西柚, 青柠, 肉桂糖浆。',
+    _ingredient: 'gold rum, grapefruit, lime, cinnamon syrup.',
+    price: 90,
+  },
+
+  45: {
+    text: '血与沙',
+    _text: 'BLOOD & SAND',
+    vol: 17,
+    ingredient: '威士忌,\n' + '血橙, 甜味美思, 樱桃力娇酒。',
+    _ingredient: 'whisky,\n' + 'blood orange, sweet vermouth, cherry liqueur.',
+    price: 95,
+  },
+
+  46: {
+    text: '僵尸1934 复刻版',
+    _text: 'ZOMBIE, 1934 RET RO',
+    vol: 17,
+    ingredient: '自制法兰纳姆(含姜、肉桂、丁香), 朗姆,\n' + '西柚, 青柠。',
+    _ingredient: 'falernum (ginger, cinnamon, clove), rum,\n' + 'grapefruit, lime.',
+    price: 100,
+  },
+
+  47: {
+    text: '纸飞机',
+    _text: 'PAPER PLANE',
+    vol: 24,
+    ingredient: '波本威士忌, 阿玛罗, 阿佩罗橙酒, 柠檬。',
+    _ingredient: 'bourbon, amaro, aperol, lemon.',
+    price: 95,
+  },
 }
 
 export default {
