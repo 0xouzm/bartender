@@ -1,28 +1,39 @@
 <template>
-  <div>wine</div>
+  <div>
+    <h1>{{ wine._text }}</h1>
+    <h1>{{ wine.text }}</h1>
+    <div>price: {{ wine.price }}</div>
+    <div>vol: {{ wine.vol }}</div>
+    <div class="text-wrapper">{{ wine._ingredient }}</div>
+    <div class="text-wrapper">{{ wine.ingredient }}</div>
+    <Button @click="$router.back()" class="backBtn">back</Button>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'Wine',
-  created() {
-    this.changeAll()
+  data() {
+    return {
+      wine: {},
+    }
   },
-  updated() {
+  created() {
     this.changeAll()
   },
   methods: {
     changeAll() {
-      let menus = this.common.menus
       let id = this.$route.params.id
-      console.log('menus:', menus)
+      this.wine = this.common.wines[id]
       console.log('id:', id)
-      console.log('params', menus[id])
-      let obj = menus[id]
-      console.log('final obj,', obj)
+      console.log('wine:', this.wine)
     },
   },
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.text-wrapper {
+  white-space: pre-wrap;
+}
+</style>

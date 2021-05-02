@@ -383,14 +383,209 @@ const menus = {
       },
     ],
   },
-
-  // 4: {
-  //   id: 4,
-  //   text: '444',
-  //   final: true,
-  // },
 }
-const wines = []
+const wines = {
+  16: {
+    text: '美味酸酒',
+    _text: 'DELICIOUS SOUR',
+    vol: 15,
+    ingredient: '苹果白兰地， 桃子力娇酒， 青柠，苏打水。',
+    _ingredient: 'apple jack, peach liqueur, lime, soda.',
+    price: 95,
+  },
+  17: {
+    text: '临别一语',
+    _text: 'LAST WORD',
+    vol: 24,
+    _ingredient: 'gin, maraschino, green chartreuse, lime.',
+    ingredient: '金酒, 野樱桃酒, 绿查特酒, 青柠。',
+    price: 95,
+  },
+  18: {
+    text: '复活药水 2 号',
+    _text: 'CORPSE REVIVER #2',
+    vol: 19,
+    ingredient: '金酒,\n 利莱酒, 君度橙酒, 柠檬。',
+    _ingredient: 'gin, \n lillet, cointreau, lemon.',
+    price: 90,
+  },
+  19: {
+    text: '黄鸟',
+    _text: 'YELLOW BIRD',
+    vol: 19,
+    ingredient: '朗姆,\n' + '加利安诺, 君度橙酒, 青柠, 橙子。',
+    _ingredient: 'rum,\n' + 'galliano vanilla, cointreau, lime, orange.',
+    price: 95,
+  },
+  20: {
+    text: '法外狂徒',
+    _text: 'ILLEGAL',
+    vol: 19,
+    ingredient: '烟熏龙舌兰, 朗姆, 自制法兰纳姆, 野樱桃酒, 青柠。',
+    _ingredient: 'mezcal, rum, falernum, maraschino, lime.',
+    price: 95,
+  },
+  21: {
+    text: '古巴原版莫吉托',
+    _text: 'MOJITO BY CUBA',
+    vol: 13,
+    ingredient: '朗姆, 青柠, 薄荷, 苏打水。',
+    _ingredient: 'rum,\n' + 'lime, mint, soda.',
+    price: 90,
+  },
+  22: {
+    text: 'Tender 玛格丽特',
+    _text: 'TENDER MARGARITA',
+    vol: 20,
+    ingredient: '龙舌兰酒, 龙舌兰糖, 青柠, 雪利酒醋。',
+    _ingredient: 'tequila,\n' + 'agave nectar, lime, sherry vinegar.',
+    price: 95,
+  },
+  23: {
+    text: '特立尼达酸酒',
+    _text: 'T RININDAD SOUR',
+    vol: 18,
+    ingredient: '安歌天娜苦精, 黑麦威士忌, orgeat, 柠檬。',
+    _ingredient: 'angostura, rye,\n' + 'orgeat, lemon.',
+    price: 120,
+  },
+
+  24: {
+    text: '红宝石菲士',
+    _text: 'RUBY FIZZ',
+    vol: 11,
+    ingredient: '黑刺莓金酒, 石榴力娇酒, 青柠, 蛋清。',
+    _ingredient: 'sloe gin, pomegranate liqueur, lime, egg white.',
+    price: 95,
+  },
+
+  25: {
+    text: '白色尼格罗尼',
+    _text: 'WHITE NEGRONI',
+    vol: 19,
+    ingredient: '金酒,\n' + '白苦精, 好奇美国佬。',
+    _ingredient: 'gin,\n' + 'bianco bitter, cocchi americano.',
+    price: 90,
+  },
+
+  26: {
+    text: '盘尼西林',
+    _text: 'PENICILLIN',
+    vol: 19,
+    ingredient: '威士忌, 泥煤威士忌, 姜, 柠檬,\n' + '枫糖, 蛋清。',
+    _ingredient: 'whisky, peated whisky, ginger, lemon,\n' + 'maple syrup, egg-white.',
+    price: 105,
+  },
+
+  27: {
+    text: '性感沙滩 2 号',
+    _text: 'SEX\n' + 'ON THE BEACH #2',
+    vol: 12,
+    ingredient: '伏特加,\n' + '蜜瓜力娇酒,\n' + '黑加仑, 蔓越莓, 菠萝, 青柠。',
+    _ingredient: 'vodka,\n' + 'midori, cassis,\n' + 'cranberry, pineapple, lime.',
+    price: 90,
+  },
+
+  28: {
+    text: '老毛子的春天',
+    _text: 'RUSSIAN SPRING PUNCH',
+    vol: 14,
+    ingredient: '伏特加, 黑加仑力娇酒, 柠檬,\n' + '气泡酒。',
+    _ingredient: 'vodka, cassis liqueur, lemon,\n' + 'prosecco.',
+    price: 90,
+  },
+
+  29: {
+    text: '无法无天',
+    _text: 'SCOFFLAW',
+    vol: 32,
+    ingredient: '黑麦威士忌, \n干味美思, 柠檬 红石榴糖浆。',
+    _ingredient: 'rye,\n' + 'dry vermouth, lemon, grenadine',
+    price: 100,
+  },
+
+  30: {
+    text: '飞行',
+    _text: 'AVIATION',
+    vol: 21,
+    ingredient: '金酒, 野樱桃酒, 青柠, 紫罗兰。',
+    _ingredient: 'gin, maraschino, lime, violet.',
+    price: 90,
+  },
+
+  31: {
+    text: '左轮手枪',
+    _text: 'REVOLVER',
+    vol: 21,
+    ingredient: '波本威士忌, 咖啡利口酒, 橙子苦精。',
+    _ingredient: 'bourbon, coffee liqueur, orange bitters.',
+    price: 100,
+  },
+
+  32: {
+    text: '在水一方',
+    _text: 'WATER LILY',
+    vol: 13,
+    ingredient: '金酒,\n' + '紫罗兰, 蔓越莓汁, 柠檬。',
+    _ingredient: 'gin,\n' + 'voilet,\n' + 'cranberry juice, lemon.',
+    price: 95,
+  },
+
+  33: {
+    text: '偷着乐宾治',
+    _text: 'PROHIBITION PUNCH',
+    vol: 12,
+    ingredient: '香料朗姆,\n' + '柑曼怡, 百香果, 蔓越莓, 青柠, 气泡酒。',
+    _ingredient: 'spice rum, grand marnier, passionfruit, cranberry, lime,\n' + 'prosecco.',
+    price: 95,
+  },
+
+  34: {
+    text: '一脱成名',
+    _text: 'NAKED\n' + '& FAMOUS',
+    vol: 19,
+    ingredient: '烟熏龙舌兰, 阿佩罗橙酒, 黄查特酒, 青柠。',
+    _ingredient: 'mezcal,\n' + 'aperol, yellow chartreuse, lime.',
+    price: 95,
+  },
+
+  35: {
+    text: '床笫之间',
+    _text: 'BETWEEN\n' + 'THE SHEETS',
+    vol: 26,
+    ingredient: '干邑白兰地, 廊酒, 君度橙酒, 柠檬。',
+    _ingredient: 'cognac,\n' + 'benedictine, cointreau, lemon.',
+    price: 100,
+  },
+
+  36: {
+    text: '僵尸',
+    _text: 'ZOMBIE',
+    vol: 21,
+    ingredient: '混调朗姆酒, 杏子白兰地, 百香果糖浆,\n' + '菠萝, 青柠。',
+    _ingredient: 'rum, brown cacao liqueur, passion fruit syrup, pineapple, lime.',
+    price: 95,
+  },
+
+  37: {
+    text: '混血姑娘',
+    _text: 'MULATA DAIQUIRI',
+    vol: 20,
+    ingredient: '朗姆, 棕可可力娇酒, 青柠。',
+    _ingredient: 'rum,\n' + 'brown cacao liqueur, lime.',
+    price: 90,
+  },
+
+  38: {
+    text: '酒谷堡',
+    _text: 'FORT LAUDERDALE COCKTAIL',
+    vol: 19,
+    ingredient: '金酒, 金巴利苦酒, 柠檬,\n' + '杏仁糖浆。',
+    _ingredient: 'gin, campari, apricot, lemon,\n' + 'orgeat.',
+    price: 90,
+  },
+
+}
 
 export default {
   menus: menus,
