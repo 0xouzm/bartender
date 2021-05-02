@@ -1,59 +1,64 @@
 <template>
   <div class="container">
-    <svg
-      viewBox="0 0 1418 116"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-    >
-      <g stroke="none" fill="none" fill-rule="evenodd" fill-opacity="0">
-        <text
-          id="@WebDesignerMag"
-          stroke="#fff"
-          fill="#645F5A"
-          font-weight="normal"
-          font-family="PermanentMarker-Regular, Permanent Marker"
-          font-size="144"
-        >
-          <tspan x="3" y="109">
-            <!--
+    <div>
+      <svg
+        viewBox="0 0 1418 116"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g stroke="none" fill="none" fill-rule="evenodd" fill-opacity="0">
+          <text
+            id="@WebDesignerMag"
+            stroke="#fff"
+            fill="#645F5A"
+            font-weight="normal"
+            font-family="PermanentMarker-Regular, Permanent Marker"
+            font-size="144"
+          >
+            <tspan x="3" y="109">
+              <!--
 					-->
-            <tspan>@</tspan>
-            <!--
+              <tspan>W</tspan>
+              <!--
 					-->
-            <tspan>B</tspan>
-            <!--
+              <tspan>H</tspan>
+              <!--
 					-->
-            <tspan>a</tspan>
-            <!--
+              <tspan>A</tspan>
+              <!--
 					-->
-            <tspan>r</tspan>
-            <!--
+              <tspan>T</tspan>
+              <!--
 					-->
-            <tspan>T</tspan>
-            <!--
+              <tspan>&nbsp;</tspan>
+              <tspan>S</tspan>
+              <!--
 					-->
-            <tspan>e</tspan>
-            <!--
+              <tspan>H</tspan>
+              <!--
 					-->
-            <tspan>n</tspan>
-            <!--
+              <tspan>O</tspan>
+              <!--
 					-->
-            <tspan>d</tspan>
-            <!--
+              <tspan>U</tspan>
+              <!--
 					-->
-            <tspan>e</tspan>
-            <!--
+              <tspan>L</tspan>
+              <!--
 					-->
-            <tspan>r</tspan>
-            <!--
+              <tspan>D</tspan>
+              <!--
 				-->
-          </tspan>
-        </text>
-      </g>
-    </svg>
+            </tspan>
+          </text>
+        </g>
+      </svg>
+    </div>
     <!--    bubbles  -->
-    <router-link :to="{ name: 'choice', params: { id: 0 } }" class="link">NEXT</router-link>
+    <div>
+      <router-link :to="{ path: '/entry' }" class="link">NEXT</router-link>
+    </div>
 
     <div class="bubbles-container">
       <svg
@@ -454,6 +459,9 @@ export default {
 }
 .link {
   display: block;
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
   font-size: 40px;
   color: white;
 }

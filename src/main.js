@@ -6,7 +6,7 @@ import router from './router'
 
 import 'normalize.css/normalize.css'
 
-import global from './components/Common.vue'
+import global from './assets/Common.vue'
 Vue.config.productionTip = false
 Vue.prototype.common = global
 /* eslint-disable no-new */

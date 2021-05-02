@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view />
-    <a href="/" class="big">home</a>
+    <a href="/" class="center">home</a>
   </div>
 </template>
 
@@ -12,6 +12,7 @@ export default {
   //   windowWidth() {
   //     return window.innerWidth + 'px'
   //   },
+
   // },
 }
 </script>
@@ -27,13 +28,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
 
-.big {
+.center {
   position: absolute;
   bottom: 0;
   font-size: 40px;
