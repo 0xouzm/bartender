@@ -4,18 +4,14 @@
     <div>
       <p>{{ _text }}</p>
       <p>{{ text }}</p>
-
-      <div v-if="final">to final</div>
-      <div v-else>
-        <div class="link" v-for="page in children" :key="page.id">
-          <div>{{ page._value }}</div>
-          <div>{{ page.value }}</div>
-          <router-link :to="{ name: 'choice', params: { id: page.id } }">
-            <Button>{{ page.id }}</Button>
-          </router-link>
-        </div>
-        <Button @click="$router.back()" class="backBtn">back</Button>
+      <div class="link" v-for="page in children" :key="page.id">
+        <div>{{ page._value }}</div>
+        <div>{{ page.value }}</div>
+        <router-link :to="{ name: page.final ? 'wine' : 'choice', params: { id: page.id } }">
+          <Button>{{ page.id }}</Button>
+        </router-link>
       </div>
+      <Button @click="$router.back()" class="backBtn">back</Button>
     </div>
   </div>
 </template>
@@ -37,17 +33,11 @@ export default {
   watch: {
     $route(to, from) {
       console.log('watch..')
-      let obj = this.getObj()
-      if (obj.final) {
-        this.$router.push({
-          path: `/wine/${obj.id}`,
-        })
-      } else {
-        this.changeAll()
-      }
+      this.changeAll()
     },
   },
   created() {
+    console.log('created')
     this.changeAll()
   },
   methods: {
