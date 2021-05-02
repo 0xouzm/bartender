@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Choice from '../components/Choice'
+import Choice from '../views/Choice'
 import Draw from '../components/Draw'
 import Container from '../components/Container'
-import Wine from '../components/Wine'
-import Entry from '../components/Entry'
+import Wine from '../views/Wine'
+import Entry from '../views/Entry'
 
 Vue.use(Router)
 
