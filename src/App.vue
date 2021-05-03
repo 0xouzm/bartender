@@ -8,12 +8,6 @@
 <script>
 export default {
   name: 'App',
-  // computed: {
-  //   windowWidth() {
-  //     return window.innerWidth + 'px'
-  //   },
-
-  // },
 }
 </script>
 
@@ -27,8 +21,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,6 +30,6 @@ body {
 .center {
   position: absolute;
   bottom: 0;
-  font-size: 40px;
+  font-size: 30px;
 }
 </style>

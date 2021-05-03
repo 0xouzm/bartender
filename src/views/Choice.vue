@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1 v-if="final">last choice</h1>
     <div>
       <p>{{ _text }}</p>
       <p>{{ text }}</p>
@@ -64,9 +63,11 @@ export default {
 <style scoped>
 .container {
   height: 100%;
+  overflow: hidden;
 }
 .backBtn {
   position: absolute;
   bottom: 0;
+  right: 0;
 }
 </style>
