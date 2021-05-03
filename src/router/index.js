@@ -1,19 +1,24 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Choice from '../views/Choice'
-import Draw from '../components/Draw'
+// import Draw from '../components/Draw'
 import Container from '../components/Container'
 import Wine from '../views/Wine'
 import Entry from '../views/Entry'
+import First from '../components/First'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    // {
+    //   path: '/',
+    //   name: 'Draw',
+    //   component: Draw,
+    // },
     {
       path: '/',
-      name: 'Draw',
-      component: Draw,
+      component: First,
     },
     {
       path: '/entry',
