@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view />
-    <a href="/" class="center">home</a>
+    <a href="/" class="home">home</a>
   </div>
 </template>
 
@@ -27,7 +27,7 @@ body {
   height: 100%;
 }
 
-.center {
+.home {
   position: absolute;
   bottom: 0;
   font-size: 30px;

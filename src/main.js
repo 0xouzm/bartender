@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 
 import 'normalize.css/normalize.css'
-
+import { Image as VanImage } from 'vant'
 import global from './assets/Common.vue'
+
+Vue.use(VanImage)
 Vue.config.productionTip = false
 Vue.prototype.common = global
 /* eslint-disable no-new */
