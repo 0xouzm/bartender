@@ -6,6 +6,7 @@ import Container from '../components/Container'
 import Wine from '../views/Wine'
 import Entry from '../views/Entry'
 import First from '../components/First'
+import Order from '../views/Order'
 
 Vue.use(Router)
 
@@ -38,6 +39,7 @@ export default new Router({
           name: 'wine',
           component: Wine,
         },
+        { path: '/order/', name: 'order', component: Order },
       ],
     },
   ],

@@ -39,7 +39,7 @@ const menus = {
   },
   3: {
     id: 3,
-    text: '为工作没赶上饭点? 你是不是传说中把工作当 饭吃的加班狂魔?',
+    text: '为工作没赶上饭点? 你是不是传说中把工作当饭吃的加班狂魔?',
     _text: "DIDN'T EAT FOR WORK? ARE YOU THE OVERTIME MAD?",
 
     children: [
@@ -386,6 +386,7 @@ const menus = {
 }
 const wines = {
   16: {
+    id: 16,
     text: '美味酸酒',
     _text: 'DELICIOUS SOUR',
     vol: 15,
@@ -394,6 +395,7 @@ const wines = {
     price: 95,
   },
   17: {
+    id: 17,
     text: '临别一语',
     _text: 'LAST WORD',
     vol: 24,
@@ -402,6 +404,7 @@ const wines = {
     price: 95,
   },
   18: {
+    id: 18,
     text: '复活药水 2 号',
     _text: 'CORPSE REVIVER #2',
     vol: 19,
@@ -410,6 +413,7 @@ const wines = {
     price: 90,
   },
   19: {
+    id: 19,
     text: '黄鸟',
     _text: 'YELLOW BIRD',
     vol: 19,
@@ -418,6 +422,7 @@ const wines = {
     price: 95,
   },
   20: {
+    id: 20,
     text: '法外狂徒',
     _text: 'ILLEGAL',
     vol: 19,
@@ -426,6 +431,7 @@ const wines = {
     price: 95,
   },
   21: {
+    id: 21,
     text: '古巴原版莫吉托',
     _text: 'MOJITO BY CUBA',
     vol: 13,
@@ -434,6 +440,7 @@ const wines = {
     price: 90,
   },
   22: {
+    id: 22,
     text: 'Tender 玛格丽特',
     _text: 'TENDER MARGARITA',
     vol: 20,
@@ -442,6 +449,7 @@ const wines = {
     price: 95,
   },
   23: {
+    id: 23,
     text: '特立尼达酸酒',
     _text: 'T RININDAD SOUR',
     vol: 18,
@@ -451,6 +459,7 @@ const wines = {
   },
 
   24: {
+    id: 24,
     text: '红宝石菲士',
     _text: 'RUBY FIZZ',
     vol: 11,
@@ -460,6 +469,7 @@ const wines = {
   },
 
   25: {
+    id: 25,
     text: '白色尼格罗尼',
     _text: 'WHITE NEGRONI',
     vol: 19,
@@ -469,6 +479,7 @@ const wines = {
   },
 
   26: {
+    id: 26,
     text: '盘尼西林',
     _text: 'PENICILLIN',
     vol: 19,
@@ -478,6 +489,7 @@ const wines = {
   },
 
   27: {
+    id: 27,
     text: '性感沙滩 2 号',
     _text: 'SEX\n' + 'ON THE BEACH #2',
     vol: 12,
@@ -487,6 +499,7 @@ const wines = {
   },
 
   28: {
+    id: 28,
     text: '老毛子的春天',
     _text: 'RUSSIAN SPRING PUNCH',
     vol: 14,
@@ -496,6 +509,7 @@ const wines = {
   },
 
   29: {
+    id: 29,
     text: '无法无天',
     _text: 'SCOFFLAW',
     vol: 32,
@@ -505,6 +519,7 @@ const wines = {
   },
 
   30: {
+    id: 30,
     text: '飞行',
     _text: 'AVIATION',
     vol: 21,
@@ -514,6 +529,7 @@ const wines = {
   },
 
   31: {
+    id: 31,
     text: '左轮手枪',
     _text: 'REVOLVER',
     vol: 21,
@@ -523,6 +539,7 @@ const wines = {
   },
 
   32: {
+    id: 32,
     text: '在水一方',
     _text: 'WATER LILY',
     vol: 13,
@@ -532,6 +549,7 @@ const wines = {
   },
 
   33: {
+    id: 33,
     text: '偷着乐宾治',
     _text: 'PROHIBITION PUNCH',
     vol: 12,
@@ -541,6 +559,7 @@ const wines = {
   },
 
   34: {
+    id: 34,
     text: '一脱成名',
     _text: 'NAKED\n' + '& FAMOUS',
     vol: 19,
@@ -550,6 +569,7 @@ const wines = {
   },
 
   35: {
+    id: 35,
     text: '床笫之间',
     _text: 'BETWEEN\n' + 'THE SHEETS',
     vol: 26,
@@ -559,6 +579,7 @@ const wines = {
   },
 
   36: {
+    id: 36,
     text: '僵尸',
     _text: 'ZOMBIE',
     vol: 21,
@@ -568,6 +589,7 @@ const wines = {
   },
 
   37: {
+    id: 37,
     text: '混血姑娘',
     _text: 'MULATA DAIQUIRI',
     vol: 20,
@@ -577,6 +599,7 @@ const wines = {
   },
 
   38: {
+    id: 38,
     text: '酒谷堡',
     _text: 'FORT LAUDERDALE COCKTAIL',
     vol: 19,
@@ -585,6 +608,7 @@ const wines = {
     price: 90,
   },
   39: {
+    id: 39,
     text: '黄瓜菲士',
     _text: 'CUCUMBER GIN FIZZ',
     vol: 12,
@@ -594,6 +618,7 @@ const wines = {
   },
 
   40: {
+    id: 40,
     text: '新加坡司令',
     _text: 'SINGAPORE SLING',
     vol: 12,
@@ -603,6 +628,7 @@ const wines = {
   },
 
   41: {
+    id: 41,
     text: '晨光飞逝',
     _text: 'MORNING GLORY FIZZ',
     vol: 12,
@@ -612,6 +638,7 @@ const wines = {
   },
 
   42: {
+    id: 42,
     text: '披荆斩棘',
     _text: 'BRAMBLE',
     vol: 16,
@@ -621,6 +648,7 @@ const wines = {
   },
 
   43: {
+    id: 43,
     text: '法式马天尼',
     _text: 'FRENCH MARTINI',
     vol: 17,
@@ -630,6 +658,7 @@ const wines = {
   },
 
   44: {
+    id: 44,
     text: '深沟',
     _text: 'DONGA PUNCH',
     vol: 15,
@@ -639,6 +668,7 @@ const wines = {
   },
 
   45: {
+    id: 45,
     text: '血与沙',
     _text: 'BLOOD & SAND',
     vol: 17,
@@ -648,6 +678,7 @@ const wines = {
   },
 
   46: {
+    id: 46,
     text: '僵尸1934 复刻版',
     _text: 'ZOMBIE, 1934 RETRO',
     vol: 17,
@@ -657,6 +688,7 @@ const wines = {
   },
 
   47: {
+    id: 47,
     text: '纸飞机',
     _text: 'PAPER PLANE',
     vol: 24,

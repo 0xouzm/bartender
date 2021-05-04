@@ -2,14 +2,8 @@
   <div>
     <h1>{{ wine._text }}</h1>
     <h1>{{ wine.text }}</h1>
-    <div>price: {{ wine.price }}</div>
-    <div>vol: {{ wine.vol }}</div>
-    <div class="text-wrapper">{{ wine._ingredient }}</div>
-    <div class="text-wrapper">{{ wine.ingredient }}</div>
-    <router-link :to="{ name: 'order', query: { id: wine.id } }">
-      <Button>下单</Button>
-    </router-link>
-    <Button @click="$router.back()" class="backBtn">back</Button>
+    <p>PLEASE ENJOY YOUR COCKTAIL</p>
+    <p>请享受你的鸡尾酒</p>
   </div>
 </template>
 
