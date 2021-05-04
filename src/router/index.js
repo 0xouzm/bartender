@@ -29,12 +29,12 @@ export default new Router({
       component: Container,
       children: [
         {
-          path: '/choice/:id',
+          path: '/choice/',
           name: 'choice',
           component: Choice,
         },
         {
-          path: '/wine/:id',
+          path: '/wine/',
           name: 'wine',
           component: Wine,
         },

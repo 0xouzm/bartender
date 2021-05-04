@@ -6,7 +6,7 @@
       <div class="link" v-for="page in children" :key="page.id">
         <div>{{ page._value }}</div>
         <div>{{ page.value }}</div>
-        <router-link :to="{ name: page.final ? 'wine' : 'choice', params: { id: page.id } }">
+        <router-link :to="{ name: page.final ? 'wine' : 'choice', query: { id: page.id } }">
           <Button>{{ page.id }}</Button>
         </router-link>
       </div>
@@ -50,7 +50,7 @@ export default {
     },
     getObj() {
       let menus = this.common.menus
-      let id = this.$route.params.id
+      let id = this.$route.query.id
       // console.log('menus:', menus)
       console.log('id:', id)
       console.log('params', menus[id])

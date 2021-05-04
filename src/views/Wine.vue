@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     changeAll() {
-      let id = this.$route.params.id
+      let id = this.$route.query.id
       this.wine = this.common.wines[id]
       console.log('id:', id)
       console.log('wine:', this.wine)

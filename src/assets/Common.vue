@@ -649,7 +649,7 @@ const wines = {
 
   46: {
     text: '僵尸1934 复刻版',
-    _text: 'ZOMBIE, 1934 RET RO',
+    _text: 'ZOMBIE, 1934 RETRO',
     vol: 17,
     ingredient: '自制法兰纳姆(含姜、肉桂、丁香), 朗姆,\n' + '西柚, 青柠。',
     _ingredient: 'falernum (ginger, cinnamon, clove), rum,\n' + 'grapefruit, lime.',
