@@ -9,7 +9,6 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "deploy" : "npm run build &&  scp -r dist/ a1:/opt/test/"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
